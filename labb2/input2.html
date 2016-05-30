@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <section>
+        <h2>Learn about input II.</h2>
+        <p>First name, username, social security number, telephone and mobile</p>
+        <form>
+            <fieldset>
+                <legend> Contact details </legend>
+                <p>First name: <input type="text" name="firstname" size="15" maxlength="30" /></p>
+                <p>Username: <input type="text" name="username" size="15" maxlength="30" /></p>
+                <!--<p>SSN: <input type="text" name="pnr" size="15" maxlength="12" placeholder="YYYYMMDDXXXX" pattern="^[12]{1}[90]{1}{0-9}{6}[0-9]{4}" required="required" /></p>-->
+                <p>SSN: <input type="text" name="pnr" size="15" maxlength="12" placeholder="YYYYMMDDXXXX" required="required" /></p>
+                <p>Tnr: <input type="text" name="tnr" size="15" pattern="^[0]{1}[0-9]{6,15}" /></p>
+                <p>Mobilenr: <input type="text" name="mobile" size="15" maxlength="15" placeholder="07XXXXXXXX" pattern="^[0]{1}[7]{1}[0-9]{8}$" /></p>
+                <br /> <br />
+                <input style="float: left" type="submit" value="Confirm" />
+            </fieldset>
+        </form>
+    </section>
+    <section>
+        <p><a href="input3.html" target="_blank">Further to input III.</a></p>
+    </section>
+</body>
+</html>
