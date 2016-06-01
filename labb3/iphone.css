@@ -1,0 +1,152 @@
+﻿body {
+    float: left;
+}
+
+#bas {
+    width: 186px;
+    height: 370px;
+    background: white;
+    border: solid lightgrey;
+    border-radius: 2em;
+    padding-left: 9px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 2px;
+    margin-left:20px;
+    position: fixed;
+}
+
+#innerbas {
+    width: 176px;
+    height: 280px;
+    background: linear-gradient(white, #303030);
+    border: solid #404040;
+    border-radius: 0.2em;
+    margin: 10px;
+    position: fixed;
+    top: 50px;
+    left: 28px;
+}
+
+#donebutton {
+    position: fixed;
+    top: 360px;
+    left: 120px;
+    width: 10px;
+    height: 10px;
+    border: solid lightgrey;
+    border-radius: 0.4em;
+}
+
+#prick {
+    position: fixed;
+    top: 40px;
+    left: 90px;
+    border: solid #404040;
+    border-radius: 1em;
+}
+
+#line {
+    position: fixed;
+    top: 40px;
+    left: 105px;
+    border: solid #404040;
+    border-radius: 1em;
+    width: 40px;
+}
+
+#prickmedium {
+    position: fixed;
+    top: 25px;
+    left: 125px;
+    border: solid #404040;
+    border-radius: 1em;
+    background-color: #404040;
+    width: 2px;
+    height: 2px;
+}
+
+#buttontop {
+    position: fixed;
+    top: 60px;
+    left: 25px;
+    width: 3px;
+    height: 18px;
+    background-color: #f0f0f0;
+    
+}
+
+#buttonmiddle {
+    position: fixed;
+    top: 100px;
+    left: 25px;
+    width: 3px;
+    height: 14px;
+    background: linear-gradient(lightgrey, #f0f0f0);
+    
+}
+
+#buttonbottom {
+    position: fixed;
+    top: 130px;
+    left: 25px;
+    width: 3px;
+    height: 14px;
+    background: linear-gradient(lightgrey, #f0f0f0);   
+}
+
+#statusbar {
+    width: 176px;
+    height: 15px;  
+    background: #303030;
+    color: white;
+    font-size: 8px;
+    position: fixed;
+    top: 63px;
+    left: 41px;
+}
+
+    #statusbar span {
+        float: left;
+        padding-left: 4px;
+        padding-top: 3px;
+        padding-right: 31px;
+    }
+
+#batteri {
+    float: right;
+    width: 9px;
+    height: 5px; 
+    background-color: white;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px; 
+    border-radius: 0.5em;
+    background-color: lightblue; 
+}
+
+table {
+    position: fixed;
+    top: 80px;
+    left: 40px;
+}
+
+    table div {
+        margin: 3px;
+        margin-left: 5px;
+    }
+
+.points {
+    float:left;
+    border: solid #d0d0d0;
+    border-radius: 1em;
+}
+
+
+
+
+

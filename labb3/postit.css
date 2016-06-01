@@ -1,0 +1,26 @@
+﻿body {
+    font-family: 'Monotype Corsiva';
+}
+
+div { 
+    background-color: aqua;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    box-shadow: 5px 5px 5px #777777;
+    padding: 10px;  
+    -ms-transform: rotate(-5deg); /*IE 9*/
+    -webkit-transform: rotate(-5deg); /*Safari*/
+    transform: rotate(-5deg);    
+}
+
+    div:hover {
+        background-color: azure;
+        width: 160px;
+        height:160px;
+        padding: 20px;
+        -ms-transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg); 
+    }
+

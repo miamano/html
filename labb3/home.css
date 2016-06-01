@@ -1,0 +1,163 @@
+﻿@charset 'utf-8';
+
+@media (max-width:480px) {
+    
+    body {
+        background-color: #7B4224;
+        background: url("images/tortamini.jpg");
+        background-size: cover;
+    }
+
+    nav li {
+        flex-direction: column;
+        list-style-type: none; 
+    }
+
+    #content p {
+        padding-left: 5%;
+    }
+
+    #historia, #recept, #content {
+        width: 90%;
+    } 
+    
+    figure {
+        margin: 1%;
+    }       
+}
+
+@media (max-width: 768px) {
+    
+    body {
+        background-color: #454545;
+        background: url("images/tortamini.jpg");
+        background-size: cover;
+        background-position-x: center;
+    }
+
+    nav li {
+        flex-direction: column; 
+        list-style-type: none; 
+    }
+
+    #content p {
+        padding-left: 15%;
+    }
+
+    #historia, #recept, #content {
+        width: 80%;
+    }
+
+    figure {
+        margin: 1%;
+    } 
+        
+}
+
+@media (min-width:769px) {
+    
+    body {
+        background-color: aqua;
+        background: url("images/grillazstorta.jpg");
+        background-size: cover;
+    }
+
+    nav li {
+        display: inline;
+    }
+
+    #content p {
+        padding-left: 20%;
+    }
+
+    #historia, #recept, #content {
+        width: 50%;
+    }  
+
+    .mina {
+        margin: 1%;
+    } 
+          
+}
+
+body {
+    background-repeat: no-repeat;
+    color: white; 
+    font-family: sans-serif, Verdana, Helvetica;  
+}
+
+header {
+    border-bottom: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; 
+    text-align: center;
+}
+
+nav {
+    border-top: 1px solid white;
+}
+
+    nav a {
+        text-transform: uppercase;    
+        text-decoration: none;  
+        padding-right: 5%;
+        color: white;
+    }
+
+#content {
+    clear: both;
+    background-color: rgba(0,0,0,0.7);
+    margin-top: 5%;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 3%;
+}
+
+#content p {
+    text-transform: capitalize;
+    padding-left: 15%;
+}
+
+#historia, #recept {
+    clear: both;
+    background-color: rgba(0,0,0,0.7);
+    margin-top: 5%;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 3%;
+    line-height: 150%;
+    font-size: 14px;
+}
+
+    #historia section {
+        width: 50%;
+        float: left;
+    }
+
+    #recept h3 {
+        text-transform: uppercase;
+    }
+
+figure {
+    display: block; 
+}
+
+.mina {
+	height : 30%; 
+	width : 30%;
+    border: 1px solid white;
+}
+
+footer {
+    clear: both;
+    color: white;
+    text-align: center; 
+}
+
+
+    
+
+
+
+
