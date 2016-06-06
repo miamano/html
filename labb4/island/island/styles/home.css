@@ -1,0 +1,5 @@
+﻿body {
+    background-color: aqua;
+    background: url("images/home.jpg");
+    background-size: cover;
+}

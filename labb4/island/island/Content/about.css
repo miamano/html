@@ -1,0 +1,24 @@
+﻿body {
+    /*background-color: aqua;*/
+    background: url("../images/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    color: white;
+}
+
+nav li {
+    border-bottom: 1px solid white;
+}
+
+nav a {
+    color: white;
+}
+
+h1, h2, p {
+    box-shadow: 5px, 5px, 5px, 5px, #777777;
+}
+
+    h1:hover, h2:hover, p:hover {
+        box-shadow: 8px 8px 8px #ff00aa;
+    }
