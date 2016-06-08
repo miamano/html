@@ -1,9 +1,11 @@
 ﻿@import url('../Content/home.css');
 
 h1, h2, p {
-    box-shadow: 5px, 5px, 5px, 5px, #777777;
+    box-shadow: 5px, 5px, 5px, 5px, #353535;
 }
 
     h1:hover, h2:hover, p:hover {
         box-shadow: 8px 8px 8px #ff00aa;
     }
+
+

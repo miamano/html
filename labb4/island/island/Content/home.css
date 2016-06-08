@@ -1,5 +1,5 @@
 ﻿body {
-    /*background-color: aqua;*/
+    background-color: rgb( 25,104,134);
     background: url("../images/home.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,6 +13,11 @@ nav li {
 
 nav a {
     color: white;
+}
+
+footer {
+   text-align: center;
+   padding-top: 2%;
 }
 
 

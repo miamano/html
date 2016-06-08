@@ -6,9 +6,16 @@
 
 .dropdown {
     margin-top: 10%;
-    transform: translate(-40%, 0);
+    transform: translate(15%, 0);
 }
 
 aside p {
     visibility: hidden;
+    font-size: large;
+    transform: translate(35%, 0);
 }
+
+h1 {
+    text-align: center;
+}
+
