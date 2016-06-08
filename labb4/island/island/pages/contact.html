@@ -35,22 +35,22 @@
             <aside class="col-sm-2"></aside>
             <section class="col-sm-7">
                 <h1>Contact</h1>
-                <div>
+                <form>
                     <div class="form-group">
                         <label for="fname">First name: </label>
-                        <input type="text" class="form-control" id="fname" placeholder="ex: Julianna" />
+                        <input type="text" class="form-control" id="fname" name="ffname" placeholder="ex: Julianna" required="required" />
                     </div>
                     <div class="form-group">
                         <label for="lname">Last name: </label>
-                        <input type="text" class="form-control" id="lname" placeholder="ex: Bengtsson" />
+                        <input type="text" class="form-control" id="lname" name="llname" placeholder="ex: Bengtsson" />
                     </div>
                     <div class="form-group">
                         <label for="phone">Phone: </label>
-                        <input type="text" class="form-control" id="phone" placeholder="ex: 0736117974" />
+                        <input type="text" class="form-control" id="phone" name="pphone" placeholder="ex: 0736117974" pattern="^[0]{1}[7]{1}[0-9]{8}$"/>
                     </div>
                     <div class="form-group">
                         <label for="email">Email: </label>
-                        <input type="email" class="form-control" id="email" placeholder="ex: sg@gmail.com" />
+                        <input type="email" class="form-control" id="email" name="eemail" placeholder="ex: sg@gmail.com" required="required"/>
                     </div>
                     <div class="form-group">
                         <label for="msg">Message: </label>
@@ -59,7 +59,7 @@
                     <div class="form-group">
                         <button type="submit" class="btn btn-info pull-right">Send</button>
                     </div>
-                </div>
+                </form>
             </section>
             <aside class="col-sm-3">
                 <div class="dropdown">
