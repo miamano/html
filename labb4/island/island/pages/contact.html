@@ -4,8 +4,10 @@
     <title>Medhoo</title>
     <meta charset="utf-8" />
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="../Content/about.css" rel="stylesheet" />
-
+    <link href="../Content/contact.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="../scripts/contact.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 </head>
@@ -28,9 +30,57 @@
                 </div>
             </nav>
         </header>
-        <div class="container">
+        <section class="col-sm-7 col-sm-push-2">
+            <div class="container">
+                <div class="form-group">
+                    <label for="fname">First name: </label>
+                    <input type="text" class="form-control" id="fname" placeholder="ex: Julianna" />
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last name: </label>
+                    <input type="text" class="form-control" id="lname" placeholder="ex: Bengtsson" />
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone: </label>
+                    <input type="text" class="form-control" id="phone" placeholder="ex: 0736117974" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" class="form-control" id="email" placeholder="ex: sg@gmail.com" />
+                </div>
+                <div class="form-group">
+                    <label for="msg">Message: </label>
+                    <textarea class="form-control" rows="5" id="msg"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-info pull-right">Send</button>
+                </div>
+            </div>
+        </section>
+        <aside class="col-sm-2 col-sm-pull-7 col-sm-pull-3">
 
+        </aside>
+        <aside class="col-sm-3 col-sm-push-2">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" href="#" data-toggle="dropdown">Opinion
+                    <span class="caret"></span>
+                </button>
+                <ul id="choicelist" class="dropdown-menu">
+                    <li><a href="#happy" id="action1">Very good</a></li>
+                    <li><a href="#neutral" id="action2">Good</a></li>
+                    <li><a href="#sad" id="action3">Bad</a></li>
+                </ul>
+            </div>
+            <p id="happy">&#128515;</p>
+            <p id="neutral">&#128528;</p>
+            <p id="sad">&#128532;</p>
 
-        </div>
+            <!--<div class="smiley">
+                <span id="happy">&#128515;</span>
+                <span id="neutral">&#128528;</span>
+                <span id="sad">&#128532;</span>
+            </div>-->
+        </aside>
+</div>
 </body>
 </html>

@@ -1,0 +1,14 @@
+﻿@import url('../Content/home.css');
+
+.container {
+    width: 100%;
+}
+
+.dropdown {
+    margin-top: 10%;
+    transform: translate(-40%, 0);
+}
+
+aside p {
+    visibility: hidden;
+}

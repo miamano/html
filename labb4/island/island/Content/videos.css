@@ -1,0 +1,27 @@
+﻿@import url('../Content/home.css');
+
+#tvone, #tvtwo {    
+    height: 100%;
+    width: 100%;
+    margin: 2%;
+    margin-top: 10%;
+    background: url('../images/tv.png') no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+    /*#tvone video, #tvtwo video {*/
+    video {
+        height: 90%;
+        width: 90%;
+        margin: 2%;
+        margin-top: 4%;
+        margin-left: 5%;
+        border-radius: 20%/60%;
+        text-align: center;
+    }
+
+#tvtwo {  
+    background: url('../images/tv.png') no-repeat;
+}
+

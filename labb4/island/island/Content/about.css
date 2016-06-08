@@ -1,19 +1,4 @@
-﻿body {
-    /*background-color: aqua;*/
-    background: url("../images/home.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    color: white;
-}
-
-nav li {
-    border-bottom: 1px solid white;
-}
-
-nav a {
-    color: white;
-}
+﻿@import url('../Content/home.css');
 
 h1, h2, p {
     box-shadow: 5px, 5px, 5px, 5px, #777777;

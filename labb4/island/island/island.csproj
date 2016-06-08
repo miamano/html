@@ -94,10 +94,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\contact.css" />
+    <Content Include="Content\game.css" />
+    <Content Include="Content\photos.css" />
+    <Content Include="Content\videos.css" />
+    <Content Include="images\fisk.png" />
+    <Content Include="images\medhoo.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="scripts\contact.js" />
+    <Content Include="scripts\game.js" />
     <Content Include="scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

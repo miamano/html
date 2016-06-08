@@ -1,10 +1,44 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-	<meta charset="utf-8" />
+    <title>Meedhoo</title>
+    <meta charset="utf-8" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/game.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="../scripts/game.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-    <p> Under construction..</p>
+    <div class="page">
+        <header class="container-fluid">
+            <nav class="navbar navbar-right">
+                <div class="container-fluid">
+                    <!--<div class="navbar-header">
+                        <a class="navbar-brand" href="#">Medhoo</a>
+                    </div>-->
+                    <ul class="nav navbar-nav">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../pages/about.html">About</a></li>
+                        <li><a href="../pages/photos.html">Photos</a></li>
+                        <li><a href="../pages/videos.html">Videos</a></li>
+                        <li><a href="../pages/game.html">Maldive game</a></li>
+                        <li><a href="../pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="col-centered">
+                <canvas id="aquarium">Update your browser to support HTML5!</canvas>
+                <form>
+                    <input id="checkboxOn" type="checkbox" name="morayon" value="on" />Go moray
+                    <input id="checkboxOff" type="checkbox" name="morayoff" value="off" />Stopp moray
+                </form>                
+                <img id="moray" src="../images/fisk.png" alt="the only morey" />
+            </div>
+        </div>
+    </div>
 </body>
 </html>
